@@ -1,0 +1,2 @@
+#!/bin/bash
+greep -v "bin" /etc/passwd
