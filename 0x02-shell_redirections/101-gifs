@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -iname '*.gif' -printf '%f\n' | ls -s | sort -h
+find ./ -iname '*.gif' -printf '%s%f\n' | sort
