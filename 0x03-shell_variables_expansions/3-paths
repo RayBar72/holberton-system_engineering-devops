@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH=$PATH:/action
+eco ":$PATH" | tr -s ":" | grep -o ":" | wc -l
