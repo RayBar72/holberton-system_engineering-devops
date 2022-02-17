@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Prints numbers to 1 to 20. With differents lucks
+
+i=0
+while [ $((i++)) -lt 20 ]
+do
+	if [ "$i" -eq 4 ]
+	then
+		echo "$i"
+		echo bad luck from China
+	elif [ "$i" -eq 9 ]
+	then
+		echo "$i"
+		echo bad luck from Japan
+	elif [ "$i" -eq 17 ]
+	then
+		echo "$i"
+		echo bad luck from Italy
+	else
+		echo "$i"
+	fi
+done
