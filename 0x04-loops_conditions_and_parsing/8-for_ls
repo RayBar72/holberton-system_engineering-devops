@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays par of the names of files in actual dir
+
+for file in *
+do
+	echo "$file" | cut -d'-' -f2-
+done
