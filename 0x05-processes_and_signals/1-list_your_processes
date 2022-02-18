@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Lists processes 'bash'
+
+ps -faux
