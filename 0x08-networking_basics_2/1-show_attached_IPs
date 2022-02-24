@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# actives IP4
+
+ifconfig | grep -oP 'inet (\d+\.){3}\d+' | cut -d " " -f2
