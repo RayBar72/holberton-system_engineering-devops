@@ -5,5 +5,5 @@ file_line { 'Using ssh key school':
 }
 file_line { 'Disable password authent':
   path =>  '/etc/ssh/ssh_config',
-  line =<  '    PasswordAuthentication no',
+  line =>  '    PasswordAuthentication no',
 }
