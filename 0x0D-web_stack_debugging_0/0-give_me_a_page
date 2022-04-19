@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Solution = starting apache. It has to be done in the server not sandbox
+service apache2 start
