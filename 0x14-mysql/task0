@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Script to install MySQL
+sudo apt update -y
+sudo apt install -y mysql-server
+sudo apt install -fy mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*
