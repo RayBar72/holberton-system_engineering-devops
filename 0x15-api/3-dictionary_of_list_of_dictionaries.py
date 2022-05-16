@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """Exports to a json file"""
-from distutils.log import info
 import json
 from sys import argv
 import requests
