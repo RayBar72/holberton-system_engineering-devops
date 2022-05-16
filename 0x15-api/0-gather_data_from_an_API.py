@@ -11,8 +11,6 @@ if __name__ == '__main__':
 
     resp_todo = requests.get(tod_url).json()
     resp_user = requests.get(us_url).json()
-    # print(resp_todo)
-    # print(resp_user)
 
     total = 0
     completed = 0
@@ -27,4 +25,4 @@ if __name__ == '__main__':
     print("Employee {} is done with tasks({}/{}):"
           .format(resp_user.get('name'), completed, total))
     for c in completed_task:
-        print("\t{}".format(c))
+        print("\t {}".format(c))
