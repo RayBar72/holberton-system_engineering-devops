@@ -5,6 +5,7 @@ import requests
 
 
 if __name__ == '__main__':
+    """In main function"""
     id = argv[1]
     us_url = 'https://jsonplaceholder.typicode.com/users/{}'.format(id)
     tod_url = 'https://jsonplaceholder.typicode.com/users/{}/todos'.format(id)
